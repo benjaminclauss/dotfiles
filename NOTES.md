@@ -9,6 +9,7 @@ Open all applications and configure accordingly.
 - https://sourabhbajaj.com/mac-setup/
 - https://jooooel.com/sync-dotfiles-using-git/
 - https://scottswezey.com/always-paste-without-formatting-macos/
+- https://mac.install.guide/terminal/zshrc-zprofile
 
 ## Screenshots
 
