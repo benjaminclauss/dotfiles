@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+brew "bitwarden-cli"
 brew "mas"
 cask "brave-browser"
 cask "copilot"
