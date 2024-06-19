@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "bitwarden-cli"
 brew "mas"
+cask "bartender"
 cask "brave-browser"
 cask "cold-turkey-blocker"
 cask "copilot"
