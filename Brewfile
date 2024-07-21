@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "bitwarden-cli"
+brew "go"
 brew "mas"
 brew "openjdk"
 cask "bartender"
