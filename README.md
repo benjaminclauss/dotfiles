@@ -13,3 +13,9 @@
 - https://sourabhbajaj.com/mac-setup/
 - https://sal.dev/macos/macos-screenshotting-tips-and-tricks/
 - https://scottswezey.com/always-paste-without-formatting-macos/
+
+### [Obsidian](https://obsidian.md/)
+
+#### Plugins
+- https://marc0l92.github.io/obsidian-jira-issue/
+- https://minimal.guide/home
