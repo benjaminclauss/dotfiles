@@ -19,3 +19,8 @@
 #### Plugins
 - https://marc0l92.github.io/obsidian-jira-issue/
 - https://minimal.guide/home
+
+### TODO
+
+- [ ] [Disable "Search man Page Index in Terminal"](https://gist.github.com/theodson/b4282a3b6e54091db4d52a4c3c10ad25).
+
