@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "bitwarden-cli"
+brew "fzf
 brew "go"
 brew "mas"
 brew "openjdk"
