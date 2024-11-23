@@ -14,6 +14,8 @@
 - https://sal.dev/macos/macos-screenshotting-tips-and-tricks/
 - https://scottswezey.com/always-paste-without-formatting-macos/
 
+- Toggle the Automatically rearrange Spaces based on most recent use switch to disable the option.
+
 ### [Obsidian](https://obsidian.md/)
 
 #### Plugins
