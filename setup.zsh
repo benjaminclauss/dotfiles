@@ -1,6 +1,8 @@
 #!/bin/zsh
 echo "Symlinking ~/.zprofile..."
 ln -nfs /Users/$USER/Developer/dotfiles/.zprofile /Users/$USER/.zprofile
+echo "Symlinking ~/.zshrc..."
+ln -nfs /Users/$USER/Developer/dotfiles/.zshrc /Users/$USER/.zshrc
 
 echo "Symlinking ~/.Brewfile."
 ln -nfs /Users/$USER/Developer/dotfiles/Brewfile /Users/$USER/.Brewfile
@@ -15,4 +17,8 @@ sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVir
 mkdir -p /Users/$USER/Pictures/Screenshots
 # https://www.macworld.com/article/673251/how-to-change-where-screenshots-are-saved-on-a-mac.html
 
+echo "Installing Oh My Zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 echo "Setup complete."
+
