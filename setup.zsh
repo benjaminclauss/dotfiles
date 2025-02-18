@@ -20,5 +20,8 @@ mkdir -p /Users/$USER/Pictures/Screenshots
 echo "Installing Oh My Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Disable "Rearrange automatically"
+defaults write com.apple.dock "mru-spaces" -bool false && killall Dock
+
 echo "Setup complete."
 
