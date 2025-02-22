@@ -1,11 +1,11 @@
 #!/bin/zsh
 echo "Symlinking ~/.zprofile..."
-ln -nfs /Users/$USER/Developer/dotfiles/.zprofile /Users/$USER/.zprofile
+ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.zprofile /Users/$USER/.zprofile
 echo "Symlinking ~/.zshrc..."
-ln -nfs /Users/$USER/Developer/dotfiles/.zshrc /Users/$USER/.zshrc
+ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.zshrc /Users/$USER/.zshrc
 
 echo "Symlinking ~/.Brewfile."
-ln -nfs /Users/$USER/Developer/dotfiles/Brewfile /Users/$USER/.Brewfile
+ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/Brewfile /Users/$USER/.Brewfile
 
 # Install Ruby Gems.
 bundle install
