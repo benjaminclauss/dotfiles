@@ -63,7 +63,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=/Users/$USER/Developer/dotfiles/.oh-my-zsh
+ZSH_CUSTOM=/Users/$USER/Developer/benjaminclauss/dotfiles/.oh-my-zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -96,3 +96,5 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+alias dotfiles="cd /Users/$USER/Developer/benjaminclauss/dotfiles"
