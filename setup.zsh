@@ -23,5 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Disable "Rearrange automatically"
 defaults write com.apple.dock "mru-spaces" -bool false && killall Dock
 
-echo "Setup complete."
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
+echo "Setup complete."
