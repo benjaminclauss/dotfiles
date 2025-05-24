@@ -29,6 +29,7 @@ cask "steam"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "whatsapp"
+cask "zoom"
 mas "Bitwarden", id: 1352778147
 mas "Day One", id: 1055511498
 mas "GarageBand", id: 682658836
