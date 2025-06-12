@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "bitwarden-cli"
+brew "ffmpeg"
 brew "fzf"
 brew "go"
 brew "mas"
