@@ -18,6 +18,7 @@
 ### [Obsidian](https://obsidian.md/)
 
 #### Plugins
+
 - https://marc0l92.github.io/obsidian-jira-issue/
 - https://minimal.guide/home
 
