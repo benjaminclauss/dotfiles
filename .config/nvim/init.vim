@@ -10,3 +10,6 @@ set softtabstop=4
 set autoindent
 " Enable smart C-like indentation for braces and code blocks.
 set smartindent
+
+" Let Neovim capture mouse/scroll events inside tmux.
+set mouse=a
