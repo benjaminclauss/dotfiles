@@ -1,8 +1,7 @@
-# Dotfiles
+# [Dotfiles](https://dotfiles.github.io/)
 
 ## References
 
-- https://dotfiles.github.io/
 - [Sync dotfiles using git](https://jooooel.com/sync-dotfiles-using-git/)
 - [`.zshrc` vs. `.zprofile`](https://mac.install.guide/terminal/zshrc-zprofile)
 
@@ -13,7 +12,6 @@
 - https://sourabhbajaj.com/mac-setup/
 - https://sal.dev/macos/macos-screenshotting-tips-and-tricks/
 - https://scottswezey.com/always-paste-without-formatting-macos/
-- https://macos-defaults.com/
 
 ### [Obsidian](https://obsidian.md/)
 
