@@ -1,4 +1,9 @@
 #!/bin/zsh
+echo "Symlinking ~/.gitconfig..."
+ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.gitconfig /Users/$USER/.gitconfig
+echo "Symlinking ~/.ssh/config..."
+mkdir -p /Users/$USER/.ssh
+ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.ssh/config /Users/$USER/.ssh/config
 echo "Symlinking ~/.zprofile..."
 ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.zprofile /Users/$USER/.zprofile
 echo "Symlinking ~/.zshrc..."

@@ -1,0 +1,5 @@
+[user]
+	name = Benjamin Clauss
+	# GitHub's noreply address — keeps real email off the internet while still linking commits to your profile.
+	# On other Git servers (GitLab, Bitbucket, etc.) this just appears as a plain email and won't link to anything.
+	email = 53198018+benjaminclauss@users.noreply.github.com
