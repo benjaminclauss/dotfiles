@@ -25,8 +25,8 @@ mkdir -p /Users/$USER/Pictures/Screenshots
 echo "Installing Oh My Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Disable "Rearrange automatically"
-defaults write com.apple.dock "mru-spaces" -bool false && killall Dock
+echo "Applying macOS defaults..."
+zsh /Users/$USER/Developer/benjaminclauss/dotfiles/.macos
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
