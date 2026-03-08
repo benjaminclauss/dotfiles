@@ -3,4 +3,7 @@
 # https://macos-defaults.com/
 
 # Disable "Rearrange automatically".
-defaults write com.apple.dock "mru-spaces" -bool false && killall Dock
+defaults write com.apple.dock "mru-spaces" -bool false
+defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\""
+
+killall Dock
