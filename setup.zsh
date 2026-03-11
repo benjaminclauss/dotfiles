@@ -28,7 +28,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "Applying macOS defaults..."
 zsh /Users/$USER/Developer/benjaminclauss/dotfiles/.macos
 
-# Install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-
 echo "Setup complete."

@@ -1,3 +1,5 @@
+brew "fnm"
+
 cask "brave-browser"
 cask "claude-code"
 cask "cold-turkey-blocker"
