@@ -1,4 +1,5 @@
 #!/bin/zsh
+# TODO: Make this script idempotent (skip steps that are already done).
 echo "Symlinking ~/.gitconfig..."
 ln -nfs /Users/$USER/Developer/benjaminclauss/dotfiles/.gitconfig /Users/$USER/.gitconfig
 echo "Symlinking ~/.ssh/config..."
