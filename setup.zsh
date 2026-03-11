@@ -28,4 +28,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "Applying macOS defaults..."
 zsh /Users/$USER/Developer/benjaminclauss/dotfiles/.macos
 
+if [ ! -f "$HOME/.ssh/id_ed25519" ]; then
+  echo "⚠️  No SSH key found."
+  echo "    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"
+else
+  echo "ℹ️  Remember to run: ssh-add --apple-use-keychain ~/.ssh/id_ed25519"
+  echo "    Add your public key to GitHub: https://github.com/settings/ssh/new"
+  cat "$HOME/.ssh/id_ed25519.pub" | pbcopy
+  echo "    Public key copied to clipboard."
+  read -p "    Press enter once you've added the key to GitHub..."
+  ssh -T git@github.com
+fi
+
 echo "Setup complete."
