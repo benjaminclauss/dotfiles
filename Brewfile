@@ -1,4 +1,5 @@
 brew "fnm"
+brew "vercel-cli"
 
 cask "brave-browser"
 cask "claude-code"
