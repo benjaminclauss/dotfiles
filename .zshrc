@@ -97,7 +97,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
-alias dotfiles="cd /Users/$USER/Developer/benjaminclauss/dotfiles"
+source /Users/$USER/Developer/benjaminclauss/dotfiles/aliases.zsh
 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
