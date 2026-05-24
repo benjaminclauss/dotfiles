@@ -7,4 +7,13 @@ defaults write com.apple.dock "mru-spaces" -bool false
 defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\""
 defaults write NSGlobalDomain AppleLanguages -array "en-US" "de-DE"
 
+# Set first day of week to Monday (2 = Monday).
+defaults write NSGlobalDomain AppleFirstWeekday '{"gregorian" = 2;}'
+
+# Disable Hot Corners for all four corners (Top-Left, Top-Right, Bottom-Left, Bottom-Right)
+defaults write com.apple.dock wvous-tl-corner -int 1
+defaults write com.apple.dock wvous-tr-corner -int 1
+defaults write com.apple.dock wvous-bl-corner -int 1
+defaults write com.apple.dock wvous-br-corner -int 1
+
 killall Dock
