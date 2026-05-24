@@ -3,6 +3,7 @@ brew "vercel-cli"
 
 cask "brave-browser"
 cask "claude-code"
+cask "docker-desktop"
 cask "cold-turkey-blocker"
 cask "ghostty"
 cask "jetbrains-toolbox"
