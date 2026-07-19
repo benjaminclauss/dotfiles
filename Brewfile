@@ -1,7 +1,7 @@
 brew "fnm"
 brew "vercel-cli"
 
-cask "brave-browser"
+cask "brave-origin"
 cask "claude-code"
 cask "docker-desktop"
 cask "cold-turkey-blocker"
