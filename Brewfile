@@ -1,5 +1,6 @@
 brew "fnm"
 brew "vercel-cli"
+brew "gh"
 
 cask "brave-origin"
 cask "claude-code"
