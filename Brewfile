@@ -1,9 +1,9 @@
 brew "fnm"
 brew "vercel-cli"
 brew "gh"
+brew "pi-coding-agent"
 
 cask "brave-origin"
-cask "claude-code"
 cask "docker-desktop"
 cask "cold-turkey-blocker"
 cask "ghostty"
