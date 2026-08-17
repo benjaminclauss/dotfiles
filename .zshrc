@@ -70,7 +70,7 @@ ZSH_CUSTOM=/Users/$USER/Developer/benjaminclauss/dotfiles/.oh-my-zsh
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,7 +91,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
-
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # Set up fzf key bindings and fuzzy completion
@@ -104,5 +103,3 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/benjaminclauss/.lmstudio/bin"
 # End of LM Studio CLI section
-
-. /opt/homebrew/etc/profile.d/z.sh

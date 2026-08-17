@@ -17,3 +17,4 @@ cask "rekordbox"
 cask "steam"
 cask "visual-studio-code"
 cask "whatsapp"
+
